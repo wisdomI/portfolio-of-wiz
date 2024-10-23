@@ -61,7 +61,7 @@ const HeroSection = () => {
       initial="hidden"
       animate="visible"
       sx={{
-        backgroundImage: 'url("./Background_intro.png")',
+        backgroundImage: 'url("./Background_Intro.png")',
         backgroundSize: isMobile ? "contain" : "cover",
         backgroundRepeat: isMobile ? "repeat" : "no-repeat",
         backgroundPosition: "center",
