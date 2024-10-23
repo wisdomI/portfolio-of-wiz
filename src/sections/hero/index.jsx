@@ -62,7 +62,6 @@ const HeroSection = () => {
       animate="visible"
       sx={{
         backgroundImage: 'url("./Background_intro.png")',
-        // backgroundImage: 'url("./Background_intro.png")',
         backgroundSize: isMobile ? "contain" : "cover",
         backgroundRepeat: isMobile ? "repeat" : "no-repeat",
         backgroundPosition: "center",
@@ -71,7 +70,7 @@ const HeroSection = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        flexDirection: isMobile ? "column" : "row", // Reversed for desktop
+        flexDirection: isMobile ? "column" : "row",
         gap: isMobile ? "30px" : "80px",
         padding: isMobile ? "80px 20px 0px 20px" : " 150px 100px 0px 100px",
       }}
