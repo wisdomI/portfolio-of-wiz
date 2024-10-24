@@ -176,20 +176,14 @@ const HeroSection = () => {
             ))}
           </MotionBox>
         </MotionBox>
-
-        {/* Scroll Down Icon */}
-        {/* <Box mt={8}>
-          <ExpandCircleDownOutlinedIcon
-            sx={{
-              height: "30px",
-              width: "30px",
-            }}
-          />
-        </Box> */}
       </MotionBox>
 
       {/* Avatar Image */}
       <MotionBox
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
         sx={{
           width: isMobile ? "100%" : "auto",
           height: isMobile ? "100%" : "auto",
@@ -200,7 +194,7 @@ const HeroSection = () => {
           justifyContent: "center",
           alignItems: "center",
         }}
-        variants={avatarVariant}
+        // variants={avatarVariant}
       >
         <img
           src="profilephoto.png"

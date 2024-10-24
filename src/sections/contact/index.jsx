@@ -23,7 +23,7 @@ const contact = [
   },
   {
     title: "Github",
-    image: "icons/GitHubLogo.svg",
+    image: "icons/GitHub.svg",
     imageTwo: "icons/ArrowUpRight.svg",
     link: "https://github.com/wisdomI/",
     id: "2",
