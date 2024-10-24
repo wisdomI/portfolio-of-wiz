@@ -16,22 +16,22 @@ import { useTheme } from "@emotion/react";
 const contact = [
   {
     title: "Linkedin",
-    image: "/icons/LinkedinLogo.svg",
-    imageTwo: "/icons/ArrowUpRight.svg",
+    image: "icons/LinkedinLogo.svg",
+    imageTwo: "icons/ArrowUpRight.svg",
     link: "https://www.linkedin.com/in/wisdom-iwunwa-6027a5209/",
     id: "1",
   },
   {
     title: "Github",
-    image: "/icons/GitHubLogo.svg",
-    imageTwo: "/icons/ArrowUpRight.svg",
+    image: "icons/GitHubLogo.svg",
+    imageTwo: "icons/ArrowUpRight.svg",
     link: "https://github.com/wisdomI/",
     id: "2",
   },
   {
     title: "Email",
-    image: "/icons/EnvelopeSimple.svg",
-    imageTwo: "/icons/ArrowUpRight.svg",
+    image: "icons/EnvelopeSimple.svg",
+    imageTwo: "icons/ArrowUpRight.svg",
     link: "https://mail.google.com/mail/u/0/#inbox?compose=new",
     id: "3",
   },

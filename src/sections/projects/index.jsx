@@ -20,7 +20,7 @@ const projects = [
     id: 6,
     title: "GREENSHIFT",
     description:
-      "GreenShift is a platform that connects rural farmers directly with consumers, eliminating middlemen to enhance income for farmers and improve food accessibility for consumers. By bridging these gaps, GreenShift fosters a sustainable agricultural ecosystem that benefits both producers and buyers.",
+      "GreenShift is a platform that facilitates direct connections between producers and consumers, aiming to streamline interactions and promote a more efficient system. By addressing key challenges in the process, GreenShift supports a balanced and sustainable environment for all parties involved.",
     image: "greenshift.png",
     link: "https://frontend-ruddy-six-56.vercel.app/ ",
     modalDescription: " ",
