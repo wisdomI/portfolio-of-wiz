@@ -15,7 +15,6 @@ import Projects from "./sections/projects";
 import Services from "./sections/services";
 import Testimonial from "./sections/testimonial";
 
-// Animation variants
 
 // Custom hook for scroll animations
 const useScrollAnimation = (threshold = 0.2) => {

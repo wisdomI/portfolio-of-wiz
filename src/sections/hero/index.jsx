@@ -187,14 +187,10 @@ const HeroSection = () => {
         sx={{
           width: isMobile ? "100%" : "auto",
           height: isMobile ? "100%" : "auto",
-          // borderRadius: "50%",
-          // border: `5px solid ${colors.red[100]}`,
-          // padding: "10px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
         }}
-        // variants={avatarVariant}
       >
         <img
           src="profilephoto.png"
@@ -202,7 +198,6 @@ const HeroSection = () => {
           style={{
             height: "100%",
             width: "100%",
-            // borderRadius: "50%",
           }}
         />
       </MotionBox>
